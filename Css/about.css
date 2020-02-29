@@ -1,0 +1,228 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: century Gothic;
+    }
+    
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/about.jpeg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+    
+    ul li{
+        display: inline;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: transparent;
+        transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background-color: #fff;
+        color: black;
+    } 
+    
+    ul li.active a{
+        background-color: #fff;
+        color: black;
+    }
+    
+    
+    
+    .logo img{
+        float: left;
+        width: 180px;
+        height: auto;
+    }
+    
+    .main {
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    h1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    h1{
+        color: gold;
+        font-size: 55px;
+        
+        
+    }
+
+    .line{
+        position: absolute;
+     color: gold;
+     width: 500px;
+     top: 25%;
+     left: 32%;
+    }
+
+
+
+    .button{
+        position: absolute;
+        top: 78%;
+        left: 17%;
+        transform: translate(-50%,-50%);
+       
+    }
+    
+    .btn{
+        border: 1px solid #fff;
+        background-color: white;
+        padding: 10px 30px;
+        color: black;
+        text-decoration: none;
+        transition: 0.6s ease;
+        margin: 2px;
+    }
+    
+    .btn:hover{
+    background-color: gold;
+    color: black;
+    
+    }
+
+    .paragraph{
+        padding: 5px;
+        margin: 0 auto;
+        top: 30%;
+    }
+
+    .title{
+        color: #ffff;
+        font-size: 60px;
+        top: 30%;
+        
+    }
+
+
+    .paragraph1{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 30px;
+        color: gold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title1{
+        position: absolute;
+        top: 30%;
+        left: 150px;
+    }
+
+    .paragraph2{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title2{
+        position: absolute;
+        top: 40%;
+        left: 150px;
+        width: 1000px;
+    }
+
+
+    .paragraph3{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title3{
+        position: absolute;
+        top: 48%;
+        left: 150px;
+        width: 1000px;
+    }
+
+    .paragraph4{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title4{
+        position: absolute;
+        top: 56%;
+        left: 150px;
+        width: 1000px;
+    }
+
+
+    .paragraph5{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title5{
+        position: absolute;
+        top: 61%;
+        left: 150px;
+        width: 1000px;
+    }
+
+    .paragraph6{
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 17px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title6{
+        position: absolute;
+        top: 66%;
+        left: 150px;
+        width: 1000px;
+    }
+
+
+    .imgfoot{
+        position: absolute;
+     
+    }
+
+    .img1{
+        width: 300px;
+        height: 150px;
+        top: 50%;
+        left: 700px; 
+        border: 2px solid red;
+    }
+
+
+    .imagemain{
+        position: absolute;
+        top: 73%;
+        left: 150px; 
+    }

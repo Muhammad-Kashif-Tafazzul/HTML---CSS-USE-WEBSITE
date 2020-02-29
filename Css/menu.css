@@ -1,0 +1,154 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: century Gothic;
+    }
+    
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/menu.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+    
+    ul li{
+        display: inline;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: transparent;
+        transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background-color: #fff;
+        color: black;
+    } 
+    
+    ul li.active a{
+        background-color: #fff;
+        color: black;
+    }
+    
+    
+    
+    .logo img{
+        float: left;
+        width: 180px;
+        height: auto;
+    }
+    
+    .main {
+        max-width: 1300px;
+        margin: auto;
+    }
+h1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    h1{
+        color: gold;
+        font-size: 55px;
+        
+        
+    }
+    
+   .line{
+       position: absolute;
+    color: gold;
+    width: 500px;
+    top: 25%;
+    left: 32%;
+   }
+
+   .cards{
+       position: absolute;
+       width: 20%;
+       background-color: white;
+       border-radius: 10px;
+       box-shadow: 2px 2px 3px goldenrod;
+       top: 33%;
+       left: 11%;
+       width: 250px;
+       height: auto;
+       
+   }
+
+
+.cards1{
+       position: absolute;
+       width: 20%;
+       background-color: white;
+       border-radius: 10px;
+       box-shadow: 2px 2px 3px goldenrod;
+       top: 33%;
+       left: 31%;
+       width: 250px;
+       height: auto;
+   }
+
+   .cards2{
+    position: absolute;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px goldenrod;
+    top: 33%;
+    left: 51%;
+    width: 250px;
+    height: auto;
+}
+
+.cards3{
+    position: absolute;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px goldenrod;
+    top: 33%;
+    left: 71%;
+    width: 250px;
+    height: auto;
+}
+
+   .cardimage img{
+       width: 100%;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+   }
+
+.cardtitle{
+    text-align: center;
+}
+
+.carddes{
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid gold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+    transition: .5s;
+}

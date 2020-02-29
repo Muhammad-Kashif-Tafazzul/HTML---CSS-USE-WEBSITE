@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/home\ pic.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+} 
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+.logo img{
+    float: left;
+    width: 180px;
+    height: auto;
+}
+
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    color: #ffff;
+    font-size: 60px;
+    
+}
+
+.paragraph{
+    padding: 5px;
+    margin: 0 auto;
+    
+}
+
+.paragraph1{
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 2px;
+}
+
+.btn:hover{
+background-color: #fff;
+color: black;
+
+}
+
+.follow{
+    float: left;
+    width: 50px;
+    height: auto;
+}
